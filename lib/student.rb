@@ -7,4 +7,6 @@ class Student < User
 
   def learn(string = "string")
     @knowledge.push(string)
+  end
+  
 end
