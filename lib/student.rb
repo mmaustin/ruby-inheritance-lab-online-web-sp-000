@@ -5,4 +5,6 @@ class Student < User
     @knowledge = []
   end
 
+  def learn(string = "string")
+    @knowledge.push(string)
 end
